@@ -1,0 +1,57 @@
+/*-------BASE---------*/
+
+:root {
+    --main-bg-color: rgb(132, 255, 235); 
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------LAYOUT---------*/
+
+main {
+    border: 15px solid lightgrey;
+    margin: 2% auto;
+    max-width: 600px; 
+    width: 80%;
+    padding: 20px;
+}
+
+/*-------MODULES---------*/
+
+h2 {
+    padding-top: 30px;
+    padding-bottom:25px;
+}
+
+h4 {
+    color: lightskyblue;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.main__p--lftborder {
+    border-left: 5px solid var(--main-bg-color);    
+}
+
+.main__p {
+    padding-left: 10px;
+}
+
+hr {
+    border: 1.5px solid lightgray;
+    margin-bottom: 16px;
+}

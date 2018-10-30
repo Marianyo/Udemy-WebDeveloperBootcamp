@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<title>Pokemon</title>
+</head>
+ 
+<body>
+	<div>
+		<h1>Tables</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Image</th>
+					<th>Name</th>
+					<th>Type</th>
+					<th>Evolves to</th>
+					<th>Url</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+					<td>Bulbasaur</td>
+					<td>Grass/Poison</td>
+					<td>Ivysauro</td>
+					<td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Click to link</a></td>
+				</tr>
+				<tr>
+					<td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+					<td>Chalmander</td>
+					<td>Fire</td>
+					<td>Charmeleon</td>
+					<td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Click to link</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<div>
+
+		<h1>Forms</h1>
+		<form>
+		<div>
+			<label>First Name:
+				<input type=text placeholder=Xavi name="name" required>
+			</label>
+			<label>Last Name:
+				<input type=text placeholder=Faus name="last" required>
+			</label>
+		</div>
+
+		<div>
+			<label for="First">First Name:</label>
+			<input id="First" type=text placeholder=Xavi name="name" required>
+
+			<label for="Last">Last Name:</label>
+			<input id="Last" type=text placeholder=Faus name="last" required>
+		</div>
+
+
+
+		<div>
+			<label>Male:
+				<input type=radio name="gender" value="male">
+			</label>
+			<label>Female:
+				<input type=radio name="gender" value="female">
+			</label>
+			<label>Other:
+				<input type=radio name="gender" value="other">
+			</label>
+		</div>
+
+		<div>
+			<label>Email:
+				<input type=email placeholder=hi@email.com name="email" required>
+			</label>
+			<label>Password:
+				<input type=password name="password" pattern=".{5,10}" required title="Password must be between 5 to 10 characters">
+			</label>
+		</div>
+
+		<div>
+			<label>Birthday:
+				<select name=month>
+					<option>Month</option>
+					<option value=1>Jan</option>
+					<option value=2>Feb</option>
+				</select>
+				
+				<select name=day>
+					<option>Day</option>
+					<option>1</option>
+					<option>2</option>
+				</select>
+				
+				<select name=year>
+					<option>Year</option>
+					<option>1984</option>
+					<option>1985</option>
+				</select>
+			</label>
+		</div> 
+
+		<div>
+			<label>I agree to the terms and conditions</label>
+			<input name="agreed"  	type="checkbox">
+		</div>
+		<input type="submit">
+	</div>
+</form>
+
+<h1>Mariangel</h1>
+<h4>My hobbies</h4>
+<ul>
+	<li>Dancing</li>
+	<li>Meditating</li>
+	<li>Coding</li>
+</ul>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <style>
+    *   {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        color:red;
+        font-weight: bold;
+        text-align: center;
+        padding: 100px;
+    }
+
+    td {
+        background: #EFEFEF;
+        width: 100px;
+        height: 100px;
+    }
+
+    table {
+        margin: 0 auto;
+    }
+
+    .vertical {
+        border-right:2px solid black;
+        border-left: 2px solid black; 
+    }
+
+    .bottom {
+        border-top:2px solid black;
+        border-bottom: 2px solid black; 
+    }
+
+    </style>
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <table>
+
+            <tr>
+                <td></td>
+                <td class=vertical></td>
+                <td></td>  
+            </tr>
+            <tr>
+                <td class=bottom></td>
+                <td class="vertical bottom"></td>
+                <td class=bottom></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class=vertical></td>
+                <td></td>
+            </tr>
+
+    </table>
+</body>
+
+</html>
